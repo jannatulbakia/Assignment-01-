@@ -1,0 +1,111 @@
+body{
+    background-color: #F5F8FF;
+}
+.navbar-head{
+    background: url(Assets/Hero-bg.png);
+
+}
+.navbar-logo-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-main-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 1440px;
+    height: 500px;
+}
+button{
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10%;
+    background-color: #4E47FF;
+    transition-duration: 1.5s;
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+.action-section{
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.action-image-section img{
+    border-radius: 40px;
+}
+.join-number-section{
+    display: flex;
+    gap: 80px;
+    
+}
+.join-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #dad9fd;
+    padding: 20px;
+    margin: 100px;
+    border-radius: 20px;
+}
+
+.what-our-users-section{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.what-users-card-section{
+    display: flex;
+    gap:270px;
+    padding: 20px;
+  
+}
+.card-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px;
+
+    
+}
+.set-cards{
+      
+      background-color: white;
+      padding: 15px;
+      padding-right: 70px;
+      border-radius: 20px;
+}
+.reviewer{
+    display: flex;
+}
+.reviewer img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.footer-section{
+    background-color: #FFFFFF;
+    padding: 70px;
+}
+.footer-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+}
