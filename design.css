@@ -43,17 +43,22 @@ body{
 }
 
 button{
-    color: white;
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 6px;
+    color: #FFFFFF;
     border: none;
     padding: 10px 25px;
-    font-size: 16px;
-    font-weight: 300;
-    border-radius: 10%;
-    background-color: #4E47FF;
-    transition-duration: 1.5s;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
 }
 button:hover{
-    transform: scale(1.1);
+    transform:scale(1.1);
+    background-color: rgb(223, 139, 183);
+    color: white;
+
 }
 
 .action-section{
@@ -142,16 +147,22 @@ button:hover{
     display: flex;
 }
 .reviewer img{
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
 }
 .reviewer-text h{
     color: #59595e;
     font-weight: 600;
+    
 }
 .reviewer-text p{
     color: #67666f;
+    margin: 0;
+}
+.reviewer-text{
+    padding-top: 12px;
+    padding-left: 10px;
 }
 
 .contact-us{
